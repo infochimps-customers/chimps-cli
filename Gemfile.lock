@@ -27,5 +27,6 @@ PLATFORMS
 
 DEPENDENCIES
   chimps (>= 0.3.0)
+  configliere (>= 0.3.2)
   json
   rspec

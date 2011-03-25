@@ -20,6 +20,8 @@ module Chimps
 Return a description of the #{default_resource_type} with the given
 ID or or slug.
 
+#{resources_listing}
+
 Examples:
 
   $ chimps show musicbrainz           # show musicbrainz dataset

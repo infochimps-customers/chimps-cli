@@ -12,9 +12,8 @@ module Chimps
       module ClassMethods
         def how_to_input_data
           <<DOC
-Properties and values can be supplied directly on the command line,
-from an input file, or from data streamed into STDIN, in order of
-decreasing precedence.
+Properties and values can be supplied directly on the command line or
+from an input file with the --data option.
 DOC
         end
       end
