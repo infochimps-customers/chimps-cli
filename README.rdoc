@@ -290,6 +290,10 @@ If a dataset on Infochimps has a downloadable package then the
 The dataset must be free, you must own it, or you must have purchased
 it (through the website) before you can +download+ it with Chimps.
 
+You may want to include the <tt>--verbose</tt> (<tt>-v</tt>) flag so
+that you can see the progress of the download, especially if it is a
+large file.
+
 == Upload
 
 Infochimps does not presently allow you to upload data by using an

@@ -135,12 +135,12 @@ module Chimps
         command.define :output, :description => "Path to output file (defaults to current directory)", :flag => :o, :type => String
       end
 
-      Chimps.config.define_command :upload, :description => "Upload a dataset" do |command|
-        command.define :create,  :description => "Create an empty upload", :flag => :C, :type => :boolean
-        command.define :start,   :description => "Start the processing of the upload", :flag => :s, :type => :boolean
-        command.define :destroy, :description => "Stop (if started) and destroy the current upload", :flag => :D, :type => :boolean
-        command.define :restart, :description => "Stop the current upload (if started) and begin anew", :flag => :r, :type => :boolean
-      end
+      # Chimps.config.define_command :upload, :description => "Upload a dataset" do |command|
+      #   command.define :create,  :description => "Create an empty upload", :flag => :C, :type => :boolean
+      #   command.define :start,   :description => "Start the processing of the upload", :flag => :s, :type => :boolean
+      #   command.define :destroy, :description => "Stop (if started) and destroy the current upload", :flag => :D, :type => :boolean
+      #   command.define :restart, :description => "Stop the current upload (if started) and begin anew", :flag => :r, :type => :boolean
+      # end
       
 
       #

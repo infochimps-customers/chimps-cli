@@ -2,7 +2,7 @@ GEM
   remote: http://rubygems.org/
   specs:
     addressable (2.2.4)
-    chimps (0.3.0)
+    chimps (0.3.1)
       addressable
       configliere (>= 0.3.2)
       json
@@ -26,7 +26,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  chimps (>= 0.3.0)
+  chimps (>= 0.3.1)
   configliere (>= 0.3.2)
   json
   rspec
