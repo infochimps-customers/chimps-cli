@@ -25,8 +25,8 @@ pkg
 .bzr
 .hg
 .svn
-/chimps.gemspec
 TAGS
 \#*
 \.#*
 pkg/*
+Gemfile.lock
